@@ -1,0 +1,13 @@
+name: JailQueue
+description: Manages the jailing process of players.
+main: legorvegenine.JailQueue
+version: 1.0
+commands:
+   jail:
+      description: Manages the jailing process of players
+      usage: /jail list/add/remove/location
+
+permissions:
+    operator:
+        description: Only OPs can use the jail commands.
+        default: op
